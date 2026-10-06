@@ -1,3 +1,4 @@
+package Two_Sum_Pattern;
 import java.util.*;
     public class TwoSum{
         public static void main(String[] args){
@@ -18,5 +19,6 @@ import java.util.*;
                 }
                 map.put(arr[i],i);
             }
+            sc.close();
         }
     }
